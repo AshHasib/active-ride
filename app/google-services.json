@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "99925459257",
+    "firebase_url": "https://activeride-418d6.firebaseio.com",
+    "project_id": "activeride-418d6",
+    "storage_bucket": "activeride-418d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99925459257:android:3326214f4f6c19510028e8",
+        "android_client_info": {
+          "package_name": "com.example.activeride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99925459257-fnt7sh1e0sq32h5oeccrml1mvc89slg9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.activeride",
+            "certificate_hash": "4fb6559bc4665b70d4d421f6b9750d261cc9fa5c"
+          }
+        },
+        {
+          "client_id": "99925459257-d144ne1f3o3cjmv0elv6nn4dfbu93qeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxru7-KLkeA5IHFGwvGa7v7uOjwUav7eE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99925459257-d144ne1f3o3cjmv0elv6nn4dfbu93qeq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

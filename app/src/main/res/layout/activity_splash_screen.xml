@@ -24,11 +24,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="powered by"
-        android:layout_marginRight="4dp"
-        android:layout_marginEnd="4dp"
         android:textColor="@color/colorWhite"
         app:layout_constraintBottom_toTopOf="@+id/imgSubLogo"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/imgSubLogo" />
 
     <ImageView
         android:id="@+id/imgSubLogo"

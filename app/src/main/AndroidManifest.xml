@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GetPhoneNumberActivity"></activity>
-        <activity android:name=".BeginVerificationActivity" />
+        <activity android:name=".GetPhoneNumberActivity" android:parentActivityName=".BeginVerificationActivity"></activity>
         <activity android:name=".MainActivity" />
+        <activity android:name=".BeginVerificationActivity" />
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

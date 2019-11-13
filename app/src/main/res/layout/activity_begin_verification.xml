@@ -16,18 +16,28 @@
         app:layout_constraintTop_toTopOf="parent"
         android:background="@color/colorPrimaryDark">
         <ImageView
+            android:id="@+id/activeRideLogo"
             android:layout_centerInParent="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/activeride_logo_transparent" />
-    </RelativeLayout>
 
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/car_logo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="0dp" />
+    </RelativeLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:text="By agreeing with our terms and policy, you will be able to receive latest updates and features"
+        android:text="@string/by_agreeing_with_our_terms_and_policy_you_will_be_able_to_receive_latest_updates_and_features"
         app:layout_constraintBottom_toTopOf="@+id/cardContinuePhoneNumber" />
 
 
@@ -47,16 +57,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="8dp"
-            android:text="CONTINUE WITH PHONE NUMBER"
+            android:text="@string/continue_with_phone_number"
             android:textAlignment="center"
             android:textColor="@color/colorWhite"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="32dp"
             tools:layout_editor_absoluteY="447dp" />
     </androidx.cardview.widget.CardView>
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
