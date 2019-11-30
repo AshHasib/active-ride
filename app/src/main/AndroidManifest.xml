@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.activeride">
+    package="com.businessgallery.activerideltd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -9,10 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GetPhoneNumberActivity" android:parentActivityName=".BeginVerificationActivity"></activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".BeginVerificationActivity" />
-        <activity android:name=".SplashScreenActivity">
+        <activity android:name="com.businessgallery.activerideltd.RegistrationActivity"></activity>
+        <activity
+            android:name="com.businessgallery.activerideltd.VerifiyPhoneActivity"
+            android:parentActivityName="com.businessgallery.activerideltd.GetPhoneNumberActivity" />
+        <activity
+            android:name="com.businessgallery.activerideltd.GetPhoneNumberActivity"
+            android:parentActivityName="com.businessgallery.activerideltd.BeginVerificationActivity" />
+        <activity android:name="com.businessgallery.activerideltd.MainActivity" />
+        <activity android:name="com.businessgallery.activerideltd.BeginVerificationActivity" />
+        <activity android:name="com.businessgallery.activerideltd.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

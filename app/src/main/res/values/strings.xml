@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">ActiveRide</string>
+    <string name="app_name">Active Ride</string>
     <string name="by_agreeing_with_our_terms_and_policy_you_will_be_able_to_receive_latest_updates_and_features">By agreeing with our terms and policy, you will be able to receive latest updates and features</string>
-    <string name="continue_with_phone_number">CONTINUE WITH PHONE NUMBER</string>
+    <string name="continue_with_phone_number">START PHONE NUMBER VERIFICATION</string>
     <string name="you_will_have_to_complete_the_phone_verification_if_you_are_our_previous_user_we_only_ask_for_additional_profile_information_in_the_first_time">You will have to complete the phone verification if you are our previous user. We only ask for additional profile information in the first time</string>
     <string name="confirm">CONFIRM</string>
 </resources>

@@ -7,51 +7,45 @@
     tools:context=".BeginVerificationActivity">
 
 
-
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/active_ride_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/colorPrimaryDark">
-        <ImageView
-            android:id="@+id/activeRideLogo"
-            android:layout_centerInParent="true"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/activeride_logo_transparent" />
-
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="100dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="0dp"
-            android:src="@drawable/car_logo"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="0dp" />
-    </RelativeLayout>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:padding="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
         android:text="@string/by_agreeing_with_our_terms_and_policy_you_will_be_able_to_receive_latest_updates_and_features"
-        app:layout_constraintBottom_toTopOf="@+id/cardContinuePhoneNumber" />
+        app:layout_constraintBottom_toTopOf="@+id/cardContinuePhoneNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardContinuePhoneNumber"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/colorPrimaryDark"
         android:clickable="true"
         android:foreground="?selectableItemBackground"
-        android:backgroundTint="@color/colorPrimary"
-        app:cardCornerRadius="4dp"
+        app:cardCornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="16dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:layout_width="match_parent"
@@ -60,8 +54,8 @@
             android:text="@string/continue_with_phone_number"
             android:textAlignment="center"
             android:textColor="@color/colorWhite"
-            android:textSize="20sp"
-            android:textStyle="bold"
+            android:textFontWeight="700"
+            android:textSize="18sp"
             tools:layout_editor_absoluteX="32dp"
             tools:layout_editor_absoluteY="447dp" />
     </androidx.cardview.widget.CardView>

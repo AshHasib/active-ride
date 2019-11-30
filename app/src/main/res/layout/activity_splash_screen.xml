@@ -4,40 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/welcome_screen_gradient"
+    android:background="@color/colorWhite"
     tools:context=".SplashScreenActivity">
 
 
     <ImageView
-        android:id="@+id/imgMainLogo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
-        android:src="@drawable/activeride_logo_transparent"
+        android:id="@+id/imgLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/active_ride_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-    </ImageView>
-
-    <TextView
-        android:id="@+id/txtPoweredBy"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="powered by"
-        android:textColor="@color/colorWhite"
-        app:layout_constraintBottom_toTopOf="@+id/imgSubLogo"
-        app:layout_constraintStart_toStartOf="@+id/imgSubLogo" />
-
-    <ImageView
-        android:id="@+id/imgSubLogo"
-        android:layout_width="150dp"
-        android:layout_height="120dp"
-        android:src="@drawable/activeworld_logo_transparent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-
-
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
